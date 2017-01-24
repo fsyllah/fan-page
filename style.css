@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+    color: red;
+    font-family: Helvetica Neue, Helveltica, Arial, sans-serif;
+}
+
+#content {
+    background-color: blue;
+}
+
+.myfavorite {
+    color: lemonchiffon;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+}
+
+h1 {
+    font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Arial Narrow, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: lower-roman;
+}
+
+a {
+    font-size: 125%;
+    font-weight: bold;
+    text-decoration: none;
+}
+

@@ -1,18 +1,47 @@
 body {
-    background-color: peru;
+    background-color: #FF9999;
     color: black;
     font-family: Verdana, Tahoma, Arial, sans-serif;
+    
+}
+
+h1 {
+    background-color: #FFFFFF;
+    background-image: radial-gradient(rgb(225, 255, 255));
+    font-family: Georgia, Time New Roman, Didot serif;
+    box-shadow: 3px 3px 3px #333;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 1px 1px 1px #FFF;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    background-color: #FFFF99;
+    background-image: radial-gradient(rgb(255, 255, 153));
+    box-shadow: 3px 3px 3px #333;
+    color: firebrick;
+    font-family: Time New Roman, Georgia, Baskerville serif;
+    margin-left: auto;
 }
 
 #content {
     background-image: url(foday.jpg);
     background-position: right;
     background-repeat: repeat-x;
+    box-shadow: 3px 3px 3px #333;
     color: blue;
     font-size: 1.5em;
     font-weight: bold;
-    line-height: 200%;
+    line-height: 2em;
     text-indent: 1em;
+}
+
+main {
+    padding: 2em ;
+    text-align: center;
+    width: 80%;
 }
 
 .myfavorite {
@@ -24,15 +53,6 @@ footer {
     font-style: italic;
     text-align: center;
     
-}
-
-h1 {
-    font-family: Georgia, Time New Roman, Didot serif;
-    text-transform: uppercase;
-}
-
-h2, h3 {
-    font-family: Time New Roman, Georgia, Baskerville serif;
 }
 
 ul {

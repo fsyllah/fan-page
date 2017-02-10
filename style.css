@@ -7,9 +7,9 @@ body {
 
 h1 {
     background-color: #FFFFFF;
-    background-image: radial-gradient(rgb(225, 255, 255));
-    font-family: Georgia, Time New Roman, Didot serif;
     box-shadow: 3px 3px 3px #333;
+    color: inherit;
+    font-family: Georgia, Time New Roman, Didot serif;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -19,7 +19,6 @@ h1 {
 
 h2, h3 {
     background-color: #FFFF99;
-    background-image: radial-gradient(rgb(255, 255, 153));
     box-shadow: 3px 3px 3px #333;
     color: firebrick;
     font-family: Time New Roman, Georgia, Baskerville serif;

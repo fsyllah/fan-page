@@ -11,27 +11,15 @@ body {
 }
 
 h1 {
-    background-color: green;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 3px 3px 3px #333;
-    color: yellow;
+    
     font-family: Georgia, Time New Roman, Didot serif;
-    margin-top: 10px;
-    opacity: 0.6;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    text-shadow: 1px 1px 1px #FFF;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
     text-transform: uppercase;
 }
 
-#homealone {
-    border: 1px solid #000000;
-    float: right;
-    margin-right: 10px;
-}
+
 
 h2, h3 {
     background-color: #FFFF99;
@@ -42,8 +30,10 @@ h2, h3 {
 }
 
 header {
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
-    position: absolute;
+    top: 0;
     width: 100%;
 }
 
@@ -55,8 +45,18 @@ header {
     color: blue;
     font-size: 1.5em;
     font-weight: bold;
-    
+}
 
+nav ul {
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 150px;
+    
+    
 }
 
 p {
@@ -64,8 +64,8 @@ p {
 }
 
 main {
-    margin-top: 10px;
-    padding: 10px ;
+    margin-left: 165px;
+    padding: 10px 10px 10px 10px ;
     width: 80%;
 }
 
@@ -91,4 +91,6 @@ a {
     margin: 0 0 5px 5px;
     text-decoration: none;
 }
+
+
 

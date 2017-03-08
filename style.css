@@ -1,96 +1,321 @@
-body {
-    background-color: #FF9999;
+body { 
+    background-color: cadetblue;
     background-image: linear-gradient(to bottom, #FFFFFF, #00FF00);
     background-repeat: no-repeat;
-    color: black;
+    color: brown;
     font-family: Verdana, Tahoma, Arial, sans-serif;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+header {
+    background: lightgreen;
+    width: 100%;
+    padding: 5px;
+    padding-right: 0px;
+    text-align: center;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+header h1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    width: 80%;
+}
+
+
+nav {
+    color: #fba7ab;
+    height: 100%;
+    float: left;
+    width: 160px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fba7ab; 
+}
+
+nav a:link {
+    color:#fba7ab;
+}
+
+nav a:visited {
+    color: lawngreen;
+}
+
+nav a:hover {
+    color: #cccccc;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+nav li {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    margin-left: 160px;
+    margin-right: auto;
+    text-align: center;
+    padding: 35px 0 35px 0;
+    padding-bottom: 5px;
+    background-color: #d4986a;
 }
 
 h1 {
-    
-    font-family: Georgia, Time New Roman, Didot serif;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
+    color: red;
     text-transform: uppercase;
+    font-family: Georgia, Time New Roman, Didot serif;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
-
-
 h2, h3 {
-    background-color: #FFFF99;
-    box-shadow: 3px 3px 3px #333;
     color: firebrick;
     font-family: Time New Roman, Georgia, Baskerville serif;
     margin-top: 100px;
 }
 
-header {
-    margin-left: auto;
-    margin-right: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-#content {
-    background-image: url(foday.jpg);
-    background-position: right;
-    background-repeat: repeat-x;
-    box-shadow: 3px 3px 3px #333;
-    color: blue;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-nav ul {
-    float: left;
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: fixed;
-    width: 150px;
-    
-    
-}
-
 p {
-    font-family: Arial,sans-serif;
-}
-
-main {
-    margin-left: 165px;
-    padding: 10px 10px 10px 10px ;
-    width: 80%;
-}
-
-.myfavorite {
-    color: blueviolet;
-}
-
-footer {
-    font-size:.80em;
-    font-style: italic;
-    text-align: center;
-    
+    margin: 24px;
 }
 
 ul {
     list-style-type: decimal;
+    color: blue;
+    margin-top: 22px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+#div {
+    background-image: url(images/woodstr.JPG);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-clip: padding-box;
+    background-size: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #074600;
+    font-style: italic;
+    font-size: .8em;
+    color: #000000;
+    border: 2px ridge #330000;
+    text-align: center;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hyperlinks {
+    font-size: large;
+    font-weight: bold;
+    color: #074600;
+}
+
+.style {
+    color: #0d4e4a;
 }
 
 a {
-    border: 1px solid #000000;
-    font-size: 120%;
-    font-weight: bold;
-    margin: 0 0 5px 5px;
     text-decoration: none;
 }
 
+a:visited {
+    color: #5fae57;
+}
 
+a:hover {
+    color: #cccccc;
+}
 
+main a:visited {
+    color: #074600;
+}
+
+main A:hover {
+    color: #cccccc;
+}
+
+#bodybox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: #0d4e4a;
+    box-shadow: 4px 4px 4px #828282;
+}
+
+.float {
+    float: right;
+    margin: 0 10px 5px 5px;
+}
+
+.float1 {
+    float: right;
+    margin: 0 10px 15px 5px;
+}
+
+#FBM {
+    margin-top: 100px;
+}
+#AM {
+    margin-top: 100px;
+}
+#FM {
+    margin-top: 100px;
+}
+#FW {
+    margin-top: 100px;
+}
+header main nav footer section article {
+    display: block;
+}
+@media only screen and (max-width: 64em) {
+	main div figure a img {
+	width:300px;
+	height: 200px;
+	}
+	body {
+	margin: 0px;
+	}
+	#bodybox {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+	}
+	main {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	font-size: 95%;
+	}
+	h1 {
+	font-size: 1.75em;
+	}
+	nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	padding: 0.5em;
+	}
+	nav li {
+	display: inline-block;
+	padding: 0.25em 0.75em 0.25em 0.75em;
+	}
+	footer {
+	margin-left: 0px;
+	}
+	#MBM {
+	margin-top: 50px;
+	}
+	#AM {
+	margin-top: 50px;
+	}
+	#FM {
+	margin-top: 50px;
+	}
+	#FW {
+	margin-top: 50px;
+	}
+	h2 {
+	margin-top: 30px;
+	}
+	.float {
+	float: right;
+	margin: 0 10px 5px 5px;
+	width: 205px;
+	height: 285px;
+	}
+	.float1 {
+	float: right;
+	margin: 0 10px 5px 5px;
+	width: 200px;
+	height: 200px;
+	}
+}
+@media only screen and (max-width: 37.5em) {
+	article img {
+	display: none;
+	}
+	body div a img {
+	display: none;
+	}
+	main div img {
+	display: none;
+	}
+	
+	header {
+	padding-top: 1em;
+	}
+	main {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0.1em 1em 0.1em 1em;
+	font-size: 90%;
+	}
+	h1 {
+	font-size: 1.5em;
+	}
+	nav {
+	padding: 0px;
+	}
+	nav ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	nav li {
+	display: block;
+	margin: 0px;
+	border-bottom: 2px solid #330000;
+	}
+	nav a {
+	display: block;
+	}
+	p {
+	margin: 10px;
+	}
+	#MBM {
+	margin-top: 20px;
+	}
+	#AM {
+	margin-top: 20px;
+	}
+	#FM {
+	margin-top: 20px;
+	}
+	#FW {
+	margin-top: 20px;
+	}
+	h2 {
+	margin-top: 12px;
+	}
+	h3 {
+	margin-top: 8px;
+	}
+	
+}
